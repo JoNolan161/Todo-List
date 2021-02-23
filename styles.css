@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    background: url("images/note.jpg") no-repeat center fixed;
+    background-size: cover;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: peachpuff;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 2.2em;
+    color: #333;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(190, 169, 141);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    border-color: #333;
+}
+
+li {
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+i {
+    padding-left: 15px;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
